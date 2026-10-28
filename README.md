@@ -1,71 +1,89 @@
 # Repository Coverage
 
-[Full report](https://htmlpreview.github.io/?https://github.com/darrenburns/posting/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[Full report](https://htmlpreview.github.io/?https://github.com/dolfly/posting/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 | Name                                                  |    Stmts |     Miss |   Cover |   Missing |
 |------------------------------------------------------ | -------: | -------: | ------: | --------: |
-| src/posting/\_\_init\_\_.py                           |        3 |        0 |    100% |           |
-| src/posting/\_\_main\_\_.py                           |       78 |       45 |     42% |21-28, 32-41, 63-71, 79-91, 105-124, 143 |
-| src/posting/app.py                                    |      573 |      116 |     80% |191, 195, 230-231, 239-246, 267, 273-288, 300, 302, 304, 320-321, 331-333, 340, 361-362, 399-400, 407-419, 439, 451, 518, 526, 543-559, 681-693, 885-901, 910-933, 938-949, 959-960, 963, 1001, 1004, 1007, 1018, 1023, 1033, 1044-1052, 1061-1062, 1076-1077, 1088-1095, 1104-1105, 1128-1129 |
-| src/posting/collection.py                             |      290 |       72 |     75% |23-26, 42-48, 56, 120, 211-212, 226-229, 232-243, 280-281, 328-329, 335-368, 383-384, 413-414, 433-440 |
-| src/posting/commands.py                               |       47 |        5 |     89% |7, 25, 65, 67, 93 |
-| src/posting/config.py                                 |      112 |        2 |     98% |  222, 239 |
+| src/posting/\_\_init\_\_.py                           |        6 |        0 |    100% |           |
+| src/posting/\_\_main\_\_.py                           |      110 |       74 |     33% |22-29, 33-42, 65-73, 81-93, 110-174, 180-191, 204, 214 |
+| src/posting/\_start\_time.py                          |        2 |        0 |    100% |           |
+| src/posting/app.py                                    |      887 |      212 |     76% |234, 238, 305-306, 337-338, 347, 353-368, 374-380, 415-416, 426-428, 496-497, 505-506, 512-513, 519-520, 549, 561, 579, 639-670, 677-690, 695-718, 768, 776, 888-889, 911-912, 940-941, 965-967, 973-974, 1081-1082, 1174, 1184-1185, 1198-1227, 1238, 1278, 1416, 1446-1471, 1477-1500, 1510-1511, 1514, 1522, 1540-1544, 1560, 1563, 1574, 1577, 1580-1582, 1585-1645, 1653-1686, 1691, 1701, 1712-1720, 1729-1730, 1748-1753, 1762-1763, 1788-1789 |
+| src/posting/auth.py                                   |        8 |        2 |     75% |     11-12 |
+| src/posting/collection.py                             |      363 |       46 |     87% |31-32, 34-35, 39, 263-266, 268-271, 326-327, 344, 457-458, 472, 475-482, 485-489, 492-495, 512-513, 562-569 |
+| src/posting/commands.py                               |      102 |        7 |     93% |86, 105-124, 163, 165, 234 |
+| src/posting/config.py                                 |      123 |        0 |    100% |           |
+| src/posting/environment\_commands.py                  |       42 |        2 |     95% |     29-30 |
+| src/posting/environments.py                           |       27 |        3 |     89% |     20-22 |
 | src/posting/exit\_codes.py                            |        1 |        0 |    100% |           |
 | src/posting/files.py                                  |       63 |       27 |     57% |68, 92-94, 110-146 |
-| src/posting/help\_screen.py                           |       62 |        4 |     94% |   155-162 |
+| src/posting/help\_data.py                             |        7 |        0 |    100% |           |
+| src/posting/help\_screen.py                           |       56 |        4 |     93% |   145-152 |
 | src/posting/highlight\_url.py                         |        0 |        0 |    100% |           |
-| src/posting/highlighters.py                           |       51 |        2 |     96% |    51, 64 |
-| src/posting/importing/curl.py                         |      136 |       57 |     58% |113, 136, 150, 157, 166-227, 232-269 |
-| src/posting/importing/open\_api.py                    |      130 |      115 |     12% |36-38, 43-58, 62-87, 97-142, 148-163, 167-255, 259-266 |
-| src/posting/jump\_overlay.py                          |       49 |        3 |     94% |11, 60, 66 |
+| src/posting/highlighters.py                           |       69 |        2 |     97% |    67, 89 |
+| src/posting/history.py                                |       91 |        1 |     99% |       178 |
+| src/posting/importing/curl.py                         |      150 |       52 |     65% |135, 138, 165, 172, 185-194, 207-212, 218-268, 290-300 |
+| src/posting/importing/open\_api.py                    |      269 |       58 |     78% |84, 99, 149-150, 172-173, 192, 195-202, 205-209, 212-215, 262, 266, 270, 272-277, 331, 337, 343, 346, 350, 367, 369-374, 440, 499-508, 529-536 |
+| src/posting/importing/postman.py                      |      111 |       13 |     88% |92-99, 133-134, 158-173 |
+| src/posting/jump\_overlay.py                          |       69 |       16 |     77% |65, 73-78, 85-101 |
 | src/posting/jumper.py                                 |       34 |        1 |     97% |        55 |
-| src/posting/locations.py                              |       18 |        3 |     83% |26, 31, 35 |
-| src/posting/messages.py                               |        6 |        0 |    100% |           |
+| src/posting/locations.py                              |       18 |        1 |     94% |        26 |
+| src/posting/messages.py                               |        8 |        0 |    100% |           |
+| src/posting/method\_styles.py                         |       15 |        0 |    100% |           |
 | src/posting/request\_headers.py                       |        8 |        0 |    100% |           |
 | src/posting/save\_request.py                          |        9 |        0 |    100% |           |
-| src/posting/scripts.py                                |       76 |       16 |     79% |16, 63-65, 69-70, 103-104, 131, 136, 162, 168, 197-200 |
+| src/posting/scripts.py                                |       76 |       14 |     82% |77-79, 83-84, 117-118, 145, 176, 182, 211-214 |
+| src/posting/session\_variables.py                     |       43 |        1 |     98% |        39 |
 | src/posting/suggesters.py                             |        1 |        1 |      0% |         2 |
-| src/posting/themes.py                                 |      162 |       10 |     94% |145, 240, 325-326, 333-338 |
+| src/posting/themes.py                                 |      176 |        5 |     97% |236, 335-336, 350-351 |
 | src/posting/tuple\_to\_multidict.py                   |       10 |        0 |    100% |           |
 | src/posting/types.py                                  |        3 |        0 |    100% |           |
+| src/posting/urls.py                                   |       71 |       12 |     83% |37-38, 65-73, 101-102, 113-114 |
 | src/posting/user\_host.py                             |       11 |        2 |     82% |     14-15 |
-| src/posting/variables.py                              |      102 |       21 |     79% |66-67, 103, 112, 122, 132, 137, 146, 152, 156, 162, 167-169, 178-180, 184-185, 219, 222 |
+| src/posting/variables.py                              |       66 |        6 |     91% |58, 66-67, 119, 151, 154 |
 | src/posting/version.py                                |        2 |        0 |    100% |           |
 | src/posting/widgets/\_\_init\_\_.py                   |        0 |        0 |    100% |           |
 | src/posting/widgets/center\_middle.py                 |        3 |        0 |    100% |           |
-| src/posting/widgets/collection/browser.py             |      315 |       79 |     75% |120, 130, 139, 171, 266, 274, 288-289, 298, 306, 328, 342-344, 361, 365, 370, 434-440, 446-454, 457-482, 489-496, 499-525, 538-539, 669-677 |
-| src/posting/widgets/collection/new\_request\_modal.py |      122 |       12 |     90% |18, 48, 158, 178, 192-196, 199-203, 212, 217, 226-230 |
-| src/posting/widgets/confirmation.py                   |       39 |       21 |     46% |51-57, 60-64, 67-72, 76, 80, 84 |
-| src/posting/widgets/datatable.py                      |       91 |       31 |     66% |67, 70-73, 97-112, 115-127, 135-140 |
-| src/posting/widgets/input.py                          |       61 |        2 |     97% |    33, 72 |
-| src/posting/widgets/key\_value.py                     |       93 |       16 |     83% |22, 73-76, 79, 85-93, 145-147, 154 |
+| src/posting/widgets/collection/browser.py             |      327 |       66 |     80% |125, 135, 144, 176, 259, 267, 281-282, 291, 299, 321, 335-337, 354, 358, 363, 422-428, 434-442, 445-470, 479, 487-513, 526-527, 655 |
+| src/posting/widgets/collection/history.py             |      124 |       16 |     87% |121-124, 153, 179-181, 191, 194-196, 201, 207-209 |
+| src/posting/widgets/collection/new\_request\_modal.py |      147 |        5 |     97% |191, 271, 276, 285-289 |
+| src/posting/widgets/confirmation.py                   |       39 |        3 |     92% |76, 80, 84 |
+| src/posting/widgets/datatable.py                      |      224 |       52 |     77% |23-24, 77, 134, 179, 185, 189, 192-204, 216-217, 224-225, 231-232, 236, 246-275, 282-283, 296-297, 325-327, 330-333, 337 |
+| src/posting/widgets/input.py                          |       17 |        1 |     94% |        20 |
+| src/posting/widgets/key\_value.py                     |      209 |       16 |     92% |115-120, 170-173, 194-195, 210, 226, 229, 255, 280, 292-294 |
+| src/posting/widgets/key\_value\_copy\_modal.py        |       29 |        5 |     83% |69, 72, 75, 78, 81 |
+| src/posting/widgets/load\_env\_file\_dialog.py        |      162 |       25 |     85% |60, 98-99, 154, 159, 184-185, 206-209, 295-318, 323, 326 |
 | src/posting/widgets/request/\_\_init\_\_.py           |        0 |        0 |    100% |           |
-| src/posting/widgets/request/form\_editor.py           |       29 |        0 |    100% |           |
-| src/posting/widgets/request/header\_editor.py         |       52 |        5 |     90% |     95-99 |
-| src/posting/widgets/request/method\_selection.py      |       29 |        1 |     97% |        75 |
-| src/posting/widgets/request/query\_editor.py          |       31 |        4 |     87% |29-30, 36-37 |
-| src/posting/widgets/request/request\_auth.py          |      104 |       39 |     62% |21, 49, 117-127, 134-151, 161-164, 169-181, 192-195 |
-| src/posting/widgets/request/request\_body.py          |       82 |       61 |     26% |43-47, 52-57, 59-106, 111-116, 121-132 |
-| src/posting/widgets/request/request\_editor.py        |       81 |        3 |     96% |23, 125, 138 |
-| src/posting/widgets/request/request\_metadata.py      |       40 |        3 |     92% |     17-19 |
-| src/posting/widgets/request/request\_options.py       |       79 |       16 |     80% |116-121, 126, 133-134, 139-146 |
+| src/posting/widgets/request/form\_editor.py           |       39 |        0 |    100% |           |
+| src/posting/widgets/request/header\_editor.py         |       67 |        6 |     91% |   284-289 |
+| src/posting/widgets/request/method\_selection.py      |       29 |        1 |     97% |        76 |
+| src/posting/widgets/request/path\_editor.py           |      102 |       42 |     59% |31, 49, 53-60, 117-136, 140-144, 147-156, 159-165, 178 |
+| src/posting/widgets/request/query\_editor.py          |       33 |        0 |    100% |           |
+| src/posting/widgets/request/request\_auth.py          |      142 |       35 |     75% |52, 178-190, 199-202, 206-209, 219-220, 230-233, 239-245, 251-254, 259-260, 273 |
+| src/posting/widgets/request/request\_body.py          |       31 |        0 |    100% |           |
+| src/posting/widgets/request/request\_editor.py        |       78 |        1 |     99% |       114 |
+| src/posting/widgets/request/request\_metadata.py      |       41 |        3 |     93% |     18-20 |
+| src/posting/widgets/request/request\_options.py       |       83 |        6 |     93% |129-130, 135, 142-143, 155 |
 | src/posting/widgets/request/request\_scripts.py       |       81 |       32 |     60% |53-71, 81-110, 118, 126, 226-229 |
-| src/posting/widgets/request/url\_bar.py               |      166 |       18 |     89% |33-34, 70, 78, 114-117, 150-151, 183-184, 190-191, 207-210, 252-253 |
-| src/posting/widgets/response/cookies\_table.py        |        8 |        0 |    100% |           |
-| src/posting/widgets/response/response\_area.py        |      110 |       21 |     81% |84-85, 110-111, 132-135, 141, 161, 165, 173-181, 185-188 |
+| src/posting/widgets/request/url\_bar.py               |      209 |       26 |     88% |74, 83, 120, 126-135, 139-142, 187, 194, 203, 220, 239-240, 246-247, 262-265, 279 |
+| src/posting/widgets/response/cookies\_table.py        |       27 |        0 |    100% |           |
+| src/posting/widgets/response/response\_area.py        |      126 |       18 |     86% |77-78, 119-120, 142, 151, 176, 184-192, 196-199 |
 | src/posting/widgets/response/response\_body.py        |       12 |        0 |    100% |           |
 | src/posting/widgets/response/response\_headers.py     |        9 |        0 |    100% |           |
-| src/posting/widgets/response/response\_trace.py       |       38 |        5 |     87% | 63, 75-78 |
-| src/posting/widgets/response/script\_output.py        |       61 |        1 |     98% |        78 |
-| src/posting/widgets/rich\_log.py                      |       26 |        0 |    100% |           |
-| src/posting/widgets/select.py                         |       18 |        5 |     72% |17-20, 24, 30 |
-| src/posting/widgets/tabbed\_content.py                |       12 |        6 |     50% |14-16, 19-21 |
-| src/posting/widgets/text\_area.py                     |      278 |      104 |     63% |80-82, 128, 158-159, 179-188, 191-214, 217-248, 350, 355, 358-363, 366, 369, 372, 375, 378, 381, 384, 387, 390-413, 416, 419, 423-437, 441-448, 452-459, 463, 503, 515, 520-525 |
-| src/posting/widgets/tree.py                           |       22 |        6 |     73% |     34-39 |
-| src/posting/widgets/variable\_autocomplete.py         |       40 |        7 |     82% | 49, 74-80 |
-| src/posting/widgets/variable\_input.py                |       20 |        0 |    100% |           |
+| src/posting/widgets/response/response\_trace.py       |       38 |        2 |     95% |     77-78 |
+| src/posting/widgets/response/script\_output.py        |       63 |        0 |    100% |           |
+| src/posting/widgets/rich\_log.py                      |       29 |        0 |    100% |           |
+| src/posting/widgets/select.py                         |       45 |       10 |     78% |20-21, 23-24, 26-27, 31-32, 46, 57 |
+| src/posting/widgets/tabbed\_content.py                |       12 |        4 |     67% | 14-16, 21 |
+| src/posting/widgets/text\_area.py                     |      375 |      158 |     58% |86-88, 134, 172-173, 193-202, 205-228, 231-262, 268, 271-275, 280-285, 287-334, 339-344, 356, 360, 462, 467, 470-475, 478, 481, 484, 487, 490, 493, 496, 499, 503-506, 529, 532, 536-550, 554-561, 565-572, 576, 579-584, 589-600, 640, 660 |
+| src/posting/widgets/tree.py                           |       26 |        6 |     77% |     35-40 |
+| src/posting/widgets/variable\_autocomplete.py         |       41 |        1 |     98% |        46 |
+| src/posting/widgets/variable\_input.py                |       25 |        0 |    100% |           |
+| src/posting/widgets/variable\_text\_area.py           |       70 |        1 |     99% |        60 |
+| src/posting/widgets/variables\_editor.py              |      126 |       10 |     92% |63-66, 177, 185, 188-189, 196, 205 |
+| src/posting/widgets/variables\_modal.py               |       33 |        0 |    100% |           |
 | src/posting/xresources.py                             |       24 |       17 |     29% |     22-45 |
-|                                             **TOTAL** | **4213** | **1017** | **76%** |           |
+| src/posting/yaml.py                                   |       14 |        0 |    100% |           |
+|                                             **TOTAL** | **6418** | **1130** | **82%** |           |
 
 
 ## Setup coverage badge
@@ -74,20 +92,20 @@ Below are examples of the badges you can use in your main branch `README` file.
 
 ### Direct image
 
-[![Coverage badge](https://raw.githubusercontent.com/darrenburns/posting/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/darrenburns/posting/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[![Coverage badge](https://raw.githubusercontent.com/dolfly/posting/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/dolfly/posting/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 This is the one to use if your repository is private or if you don't want to customize anything.
 
 ### [Shields.io](https://shields.io) Json Endpoint
 
-[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/darrenburns/posting/python-coverage-comment-action-data/endpoint.json)](https://htmlpreview.github.io/?https://github.com/darrenburns/posting/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/dolfly/posting/python-coverage-comment-action-data/endpoint.json)](https://htmlpreview.github.io/?https://github.com/dolfly/posting/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
 It won't work with private repositories. It won't be refreshed more than once per five minutes.
 
 ### [Shields.io](https://shields.io) Dynamic Badge
 
-[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdarrenburns%2Fposting%2Fpython-coverage-comment-action-data%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/darrenburns/posting/blob/python-coverage-comment-action-data/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdolfly%2Fposting%2Fpython-coverage-comment-action-data%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/dolfly/posting/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
 
